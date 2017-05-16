@@ -47,8 +47,8 @@ def makeRap(curr, probDict, T = 50):
 
 if __name__ == '__main__':
 	rapFreqDict = {}
-	rapProbDict = addToDict('lyrics1.txt', rapFreqDict)
-	rapProbDict = addToDict('lyrics2.txt', rapFreqDict)
+	rapProbDict = addToDict('DrakeLyrics.txt', rapFreqDict)
+	rapProbDict = addToDict('KendrickLyrics.txt', rapFreqDict)
 
 	startWord = input("What do you want to start your rap with?\n > ")
 	print("Alright, here's your rap:")
